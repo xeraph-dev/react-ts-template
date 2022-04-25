@@ -1,0 +1,33 @@
+.Tab {
+  color: var(--foreground);
+}
+
+.Tab_active {
+}
+
+.Tab_fullWidth {
+  flex-grow: 1;
+}
+
+.Tabs {
+  display: flex;
+  padding: 0;
+}
+
+.Tabs_centered {
+  justify-content: center;
+}
+
+.TabPanel {
+  padding: 8px;
+}
+
+.TabPanels {
+}
+
+.TabRoot {
+}
+
+.TabRoot_fullWidth {
+  width: 100%;
+}

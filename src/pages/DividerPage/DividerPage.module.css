@@ -1,0 +1,54 @@
+.DividerPage_container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.DividerPage_try_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.DividerPage_try_code {
+  flex-basis: 100%;
+}
+
+.DividerPage_try_options,
+.DividerPage_try_preview {
+  flex-basis: calc(50% - 8px);
+  max-width: calc(400px - 8px);
+  box-shadow: var(--shadow-inset);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.DividerPage_try_options {
+  padding: 8px;
+}
+
+.DividerPage_try_option {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+  padding: 8px;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.DividerPage_try_preview {
+  min-height: 200px;
+  padding: 16px;
+}
+
+.DividerPage_alloptions_item {
+  min-height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .DividerPage_try_preview,
+  .DividerPage_try_options {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

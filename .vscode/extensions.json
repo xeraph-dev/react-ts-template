@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "donjayamanne.githistory",
+    "github.copilot",
+    "eamodio.gitlens",
+    "xabikos.javascriptsnippets",
+    "esbenp.prettier-vscode",
+    "xabikos.reactsnippets",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "kamikillerto.vscode-colorize",
+    "mikestead.dotenv",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-pull-request-github",
+    "wix.vscode-import-cost",
+    "christian-kohler.path-intellisense",
+    "csstools.postcss",
+    "ricard.postcss"
+  ]
+}

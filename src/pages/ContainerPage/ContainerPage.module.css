@@ -1,0 +1,22 @@
+.ContainerPage_container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.ContainerPage_try_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.ContainerPage_try_code {
+  flex-basis: 100%;
+}
+
+.ContainerPage_try_preview {
+  flex-basis: 100%;
+  box-shadow: var(--shadow-inset);
+  border-radius: 4px;
+  width: 100%;
+}

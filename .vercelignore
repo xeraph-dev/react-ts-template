@@ -1,0 +1,4 @@
+yarn-errors.log
+pnpm-lock.yaml
+yarn.lock
+dist

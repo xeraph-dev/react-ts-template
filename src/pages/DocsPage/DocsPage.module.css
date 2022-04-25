@@ -1,0 +1,8 @@
+.DocsPage_card_to_page {
+  min-width: 200px;
+  aspect-ratio: 16/9;
+
+  & > * {
+    padding: 0;
+  }
+}

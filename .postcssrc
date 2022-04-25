@@ -1,0 +1,10 @@
+{
+  "modules": true,
+  "plugins": {
+    "autoprefixer": {
+      "flexbox": true
+    },
+    "postcss-nested": true,
+    "postcss-pxtorem": true
+  }
+}

@@ -1,0 +1,23 @@
+.CardPage_container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.CardPage_try_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.CardPage_try_code {
+  flex-basis: 100%;
+}
+
+.CardPage_try_preview {
+  flex-basis: 100%;
+  box-shadow: var(--shadow-inset);
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px;
+}
